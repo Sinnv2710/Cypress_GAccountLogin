@@ -1,0 +1,28 @@
+{
+  "baseUrl": "https://example.ramper.xyz/test",
+  "integrationFolder": "cypress/integration",
+  "viewportHeight": 1000,
+  "viewportWidth": 1280,
+  "timeout": 10000,
+  "retries": 0,
+  "reporter": "mochawesome",
+  "env": {
+    "googleSocialLoginUsername": "sintest61@gmail.com",
+    "googleSocialLoginPassword": "Sinnguyenvan123",
+    "loginUrl": "https://example.ramper.xyz/test",
+    "cookieName": "__Secure-3PSIDCC",
+    "lsdItemName": "ramper_currentWallet"
+  },
+  "reporterOptions": {
+    "reportDir": "cypress/reports",
+    "reportFilename": "report",
+    "reportTitle": "Test Report",
+    "reportPageTitle": "Test Report",
+    "autoOpen": true,
+    "quiet": false,
+    "clearOldReports": true
+  },
+  "requestTimeout": 20000,
+  "experimentalStudio": true,
+  "watchForFileChanges": false
+}
