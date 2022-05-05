@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "Sin Nguyen",
   "license": "MIT",
+  "scripts": {
+    "cypress:open": "cypress open"
+  },
   "dependencies": {},
   "devDependencies": {
     "fs": "^0.0.1-security",
